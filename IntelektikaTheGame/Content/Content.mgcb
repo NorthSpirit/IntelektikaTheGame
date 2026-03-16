@@ -1,0 +1,37 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+# Tiles
+/build:../Sprites/Tiles/tile_forest.jpg;Sprites/Tiles/tile_forest.jpg
+/build:../Sprites/Tiles/tile_grass.jpg;Sprites/Tiles/tile_grass.jpg
+/build:../Sprites/Tiles/tile_mountain.jpg;Sprites/Tiles/tile_mountain.jpg
+/build:../Sprites/Tiles/tile_water.jpg;Sprites/Tiles/tile_water.jpg
+
+# Units
+/build:../Sprites/Units/att_archer.png;Sprites/Units/att_archer.png
+/build:../Sprites/Units/att_cav.png;Sprites/Units/att_cav.png
+/build:../Sprites/Units/att_flier.png;Sprites/Units/att_flier.png
+/build:../Sprites/Units/att_healer.png;Sprites/Units/att_healer.png
+/build:../Sprites/Units/att_melee.png;Sprites/Units/att_melee.png
+/build:../Sprites/Units/def_archer.png;Sprites/Units/def_archer.png
+/build:../Sprites/Units/def_cav.png;Sprites/Units/def_cav.png
+/build:../Sprites/Units/def_flier.png;Sprites/Units/def_flier.png
+/build:../Sprites/Units/def_healer.png;Sprites/Units/def_healer.png
+/build:../Sprites/Units/def_melee.png;Sprites/Units/def_melee.png
+
+# Misc
+/build:../Sprites/Misc/misc_indicator.png;Sprites/Misc/misc_indicator.png
+/build:../Sprites/Misc/misc_indicator.png;Sprites/Misc/misc_indicatorblue.png
+/build:../Sprites/Misc/misc_indicator.png;Sprites/Misc/misc_indicatorred.png
