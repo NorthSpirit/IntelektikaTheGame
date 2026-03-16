@@ -25,7 +25,7 @@ namespace IntelektikaTheGame.GameLogic
             //1. If actor is already in range it performs Attack/Heal BEFORE moving.
             if (primaryTarget != null && IsInActionRange(unit, primaryTarget, world))
             {
-                    (unit, primaryTarget, world);
+                PerformAction(unit, primaryTarget, world);
                 hasAttacked = true;
 
                 //Set the path type for visual clarity.
